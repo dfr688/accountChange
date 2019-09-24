@@ -1,0 +1,127 @@
+.home{
+	height: 100%;
+	padding-bottom: 70px;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+.home .top{
+	width: 100%;
+	height: 2.29rem;
+	background: url(../images/public/banner.png) no-repeat left top;
+	background-size: 100%;
+	padding-top: .67rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.home .top .time{
+	text-align: center;
+	font-size: .3rem;
+	color: #fff;
+	margin: 0 .8rem;
+}
+.home .top .time i{
+	display: inline-block;
+	width: .24rem;
+	height: .15rem;
+	background: url(../images/public/down.png) no-repeat left top;
+	background-size: 100%;
+	margin-left: .1rem;
+}
+.home .top .time i.active{
+	background: url(../images/public/up.png) no-repeat left top;
+	background-size: 100%;
+}
+.home .top .calendar{
+	display: inline-block;
+	width: .45rem;
+	height: .43rem;
+	background: url(../images/home/calendar.png) no-repeat left top;
+	background-size: 100%;
+	position: absolute;
+	top: .58rem;
+	right: .2rem;
+}
+.home .top .logo{
+	width: .6rem;
+	height: .6rem;
+	border-radius: 1rem;
+	background: url(../images/home/logo.png) no-repeat left top;
+	background-size: 100%;
+	position: absolute;
+	top: .58rem;
+	left: .2rem;
+} 
+.home .top ul{
+	display: flex;
+	margin-top: .2rem;
+}
+.home .top ul li{
+	flex: 1;
+	font-size: .3rem;
+	color: #fff;
+	text-align: center;
+}
+/* 底部导航盖住页面内容 */
+/* .home:after {
+ 	content: ''; 
+ 	display: block; 
+ 	height: 93px; 
+ } */
+ /* 弹框 */
+ .home .popup{
+ 	width: 6.24rem;
+ 	background: #fff;
+ 	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.41);
+ 	border-radius: .1rem;
+ 	padding-top: 1rem;
+ }
+ .home .popup .tops{
+ 	text-align: center;
+ 	font-size: .26rem;
+ 	margin-bottom: 1rem;
+ }
+ .home .popup .tops div{
+ 	width: 1rem;
+ 	height: 1rem;
+ 	background: #f2f2f5;
+ 	box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
+ 	border-radius: .6rem;
+ 	margin: 0 auto;
+ 	margin-bottom: .2rem;
+ 	line-height: 1.2rem;
+ }
+ .home .popup .tops div img{
+ 	width: .5rem;
+ 	height: .5rem;
+ }
+ .home .popup .item_detail li{
+ 	font-size: .26rem;
+ 	margin: 0 .2rem;
+ 	margin-top: .4rem;
+ 	padding-bottom: .12rem;
+ 	border-bottom: 1px solid #f1f1f1;
+ }
+ .home .popup .item_detail li span{
+ 	color: #999;
+ 	margin-right: .5rem;
+ }
+ .home .popup .item_detail li input{
+ 	font-size: .26rem;
+ }
+ .home .popup .bottom{
+ 	display: flex;
+ 	margin: 0 .2rem;
+ 	margin-top: 2rem;
+ 	border-top: 1px solid #f1f1f1;
+ }
+ .home .popup .bottom li{
+ 	flex: 1;
+ 	font-size: .24rem;
+ 	text-align: center;
+ 	margin: .3rem 0;
+ 	padding: .1rem 0;
+ }
+ .home .popup .bottom li:first-child{
+ 	border-right: 1px solid #f1f1f1;
+ }

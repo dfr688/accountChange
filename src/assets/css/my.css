@@ -1,0 +1,159 @@
+.my{
+	height: 100%;
+	padding-bottom: 70px;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+.my .top{
+	width: 100%;
+	height: 4.58rem;
+	background: url(../images/my/my.png) no-repeat left top;
+	background-size: 100%;
+}
+.my .top .out{
+	display: flex;
+	margin:  0 .2rem;
+	padding-top: .6rem;
+	margin-bottom: .2rem;
+}
+.my .top .out i{
+	color: #fff;
+	font-size: .46rem;
+	flex: 1;
+}
+.my .top .out span{
+	font-size: .3rem;
+	flex: 1;
+	text-align: right;
+	color: #fff;
+}
+.my .top .head_img{
+	width: 1.14rem;
+	height: 1.14rem;
+	background: #fdebed;
+	border-radius: .6rem;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1.14rem;
+}
+.my .top .head_img img{
+	width: .75rem;
+	height: .77rem;
+}
+.my .top ul{
+	display: flex;
+	margin-top: .26rem;
+}
+.my .top ul li{
+	flex: 1;
+	font-size: .3rem;
+}
+.my .top ul li:first-child{
+	margin-right: .4rem;
+	text-align: right;
+}
+.my .top ul li a{
+	display: inline-block;
+	width: 1.56rem;
+	height: .6rem;
+	background: rgba(255,255,255,0.2);
+	border-radius: .3rem;
+	color: #fefefe;
+	text-align: center;
+	line-height: .6rem;
+}
+.my .top p{
+	font-size: .36rem;
+	color: #fff;
+	text-align: center;
+	margin-top: .4rem;
+}
+.my .all ul{
+	display: flex;
+	padding: .3rem 0;
+	border-bottom: 1px solid #f1f1f1;
+}
+.my .all ul li{
+	flex: 1;
+	font-size: .2rem;
+	text-align: center;
+}
+.my .all ul li span{
+	margin-left: .4rem;
+}
+.my .bill .line{
+	width: 100%;
+	height: .26rem;
+	background: url(../images/public/line.png) no-repeat left top;
+	background-size: 100%;
+	margin-top: .2rem;
+}
+.my .bill .title{
+	display: flex;
+	margin: .4rem .2rem;
+	color: #333;
+}
+.my .bill .title .left{
+	flex: 2;
+	font-size: .28rem;
+	height: .7rem;
+	line-height: .7rem;
+}
+.my .bill .title .left div{
+	display: inline-block;
+	width: .7rem;
+	height: .7rem;
+	line-height: .7rem;
+	background: #f2f2f5;
+	border-radius: .6rem;
+	text-align: center;
+}
+.my .bill .title .left div img{
+	width: .4rem;
+	height: .38rem;
+	margin-bottom: -.08rem;
+}
+.my .bill .title .left span{
+	margin-left: .1rem;
+}
+.my .bill .title .right{
+	flex: 1;
+	font-size: .28rem;
+	height: .7rem;
+	line-height: .7rem;
+	text-align: right;
+}
+.my .bill .title .right i{
+	display: inline-block;
+	width: .11rem;
+	height: .2rem;
+	background: url(../images/my/right.png) no-repeat left top;
+	background-size: 100%;
+}
+.my .bill .bill_detail .type ul{
+	display: flex;
+	padding-left: .2rem;
+	padding-bottom: .1rem;
+	border-bottom: 1px solid #f1f1f1;
+}
+.my .bill .bill_detail .type ul li{
+	flex: 1;
+	color: #999;
+	font-size: .2rem;
+}
+.my .bill .bill_detail .cost li{
+	display: flex;
+	padding: .4rem 0 .4rem .2rem;
+	border-bottom: 1px solid #f1f1f1;
+}
+.my .bill .bill_detail .cost li p{
+	flex: 1;
+	font-size: .24rem;
+}
+/* 底部导航盖住页面内容 */
+/* .my:after {
+ 	content: ''; 
+ 	display: block; 
+ 	height: 60px; 
+ } */

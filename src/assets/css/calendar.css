@@ -1,0 +1,104 @@
+.calendar{
+	position: relative;
+	height: 100%;
+}
+.calendar .back{
+	font-size: .46rem;
+	color: #fff;
+	position: absolute;
+	left: .2rem;
+	top: .55rem;
+}
+.calendar .back span{
+	font-size: .46rem;
+}
+.calendar .add{
+	color: #fff;
+	font-size: .3rem;
+	position: absolute;
+	right: .2rem;
+	top: .62rem;
+}
+.calendar .sign ul{
+	display: flex;
+	margin: 0 .2rem;
+	padding-top: .2rem;
+	border-top: 1px solid #f1f1f1;
+	margin-top: .2rem;
+}
+.calendar .sign ul li{
+	font-size: .2rem;
+	color: #999;
+	flex: 1;
+}
+.calendar .sign ul li:last-child{
+	flex: 1.5;
+}
+.calendar .sign ul li span{
+	display: inline-block;
+	width: .14rem;
+	height: .14rem;
+	border-radius: .2rem;
+	margin-right: .2rem;
+}
+.calendar .sign ul li .blue{
+	background: #7498e4;
+}
+.calendar .sign ul li .red{
+	background: #ff745f;
+}
+.calendar .line{
+	width: 100%;
+	height: .26rem;
+	background: url(../../assets/images/public/line.png) no-repeat left top;
+	background-size: 100%;
+	margin-top: .6rem;
+}
+.calendar .detail .tit{
+	display: flex;
+	font-size: .2rem;
+	color: #999;
+	padding: .2rem .2rem .1rem .2rem;
+	border-bottom: 1px solid #f1f1f1;
+}
+.calendar .detail .tit .left{
+	flex: 1;
+}
+.calendar .detail .tit .right{
+	flex: 2;
+	text-align: right;
+}
+.calendar .detail .tit .right span:first-child{
+	margin-right: .6rem;
+}
+.calendar .detail ul{
+	margin-top: .14rem;
+}
+.calendar .detail ul li{
+	display: flex;
+	font-size: .24rem;
+	margin: 0 .2rem;
+	height: .7rem;
+	line-height: .7rem;
+	margin-bottom: .3rem;
+}
+.calendar .detail ul li div{
+	flex: 1;
+}
+.calendar .detail ul li .left div{
+	width: .7rem;
+	height: .7rem;
+	background: #f2f2f5;
+	border-radius: .6rem;
+	display: inline-block;
+	margin-right: .3rem;
+	text-align: center;
+	line-height: .8rem;
+}
+.calendar .detail ul li .left div img{
+	width: .36rem;
+	height: .36rem;
+}
+.calendar .detail ul li .right{
+	text-align: right;
+}
