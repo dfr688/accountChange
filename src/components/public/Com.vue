@@ -39,7 +39,6 @@ export default {
 		margin-left: .2rem;
 	}
 	.com .back i{
-		color: #fff;
 		font-size: .46rem;
 	}
 	.com .logo{
@@ -47,7 +46,7 @@ export default {
 		height: 1.13rem;
 		font-size: .3rem;
 		color: #fff;
-		background: #20a3e0;
+		background: #fdcd13;
 		margin: 0 auto;
 		text-align: center;
 		line-height: 1.13rem;

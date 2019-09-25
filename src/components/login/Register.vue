@@ -172,6 +172,6 @@ export default {
 		text-align: center;
 	}
 	.register .privacy a{
-		color: #20a3e0;
+		color: #fdcd13;
 	}
 </style>

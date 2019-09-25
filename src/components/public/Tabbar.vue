@@ -5,19 +5,19 @@
 				<li class="detail">
 					<router-link to="/home">
 						<span :class="{active:isTrue}"></span>
-						<p>明细</p>
+						<p :class="{active:isTrue}">日历</p>
 					</router-link>
 				</li>
 				<li class="note">
 					<router-link to="/note">
 						<span></span>
-						<p>记一笔</p>
+						<p class="change">记一笔</p>
 					</router-link>
 				</li>
 				<li class="my">
 					<router-link to="/my">
 						<span :class="{active:!isTrue}"></span>
-						<p>我的</p>
+						<p :class="{active:!isTrue}">我的</p>
 					</router-link>
 				</li>
 			</ul>
@@ -78,7 +78,7 @@ export default {
 		margin-top: .7rem;
 	}
 	.tabbar .bottom ul li a{
-		color: #005fb1;
+		color: #666;
 	}
 	.tabbar .bottom ul .note{
 		margin-top: .3rem;
@@ -96,13 +96,19 @@ export default {
 		background: url(../../assets/images/public/home_02.png) no-repeat left top;
 		background-size: 100%;
 	}
+	.tabbar .bottom ul .detail p.active{
+		color: #fdcd13;
+	}
 	.tabbar .bottom ul .note span{
 		width: .64rem;
 		height: .7rem;
 		background: url(../../assets/images/public/note.png) no-repeat left top;
 		background-size: 100%;
 		margin-bottom: .2rem;
-		margin-right: .05rem;
+		margin-right: -.12rem;
+	}
+	.tabbar .bottom ul .note .change{
+		color: #fdcd13;
 	}
 	.tabbar .bottom ul .my span{
 		width: .45rem;
@@ -113,6 +119,9 @@ export default {
 	.tabbar .bottom ul .my span.active{
 		background: url(../../assets/images/public/my_02.png) no-repeat left top;
 		background-size: 100%;
+	}
+	.tabbar .bottom ul .my p.active{
+		color: #fdcd13;
 	}
 	.tabbar .height_10{
 		height: .4rem;

@@ -11,6 +11,7 @@ import Expend from '@/components/note/Expend'
 import Calendars from '@/components/home/Calendars'
 import Forget from '@/components/login/Forget'
 import Privacy from '@/components/login/Privacy'
+import DayDetail from '@/components/home/DayDetail'
 // import Redirect from '@/components/home/Redirect'
 import { Toast } from 'mint-ui';
 
@@ -85,6 +86,11 @@ Vue.use(Router)
 	{
 		path: '/privacy',
 		component: Privacy
+	},
+	{
+		path: '/daydetail',
+		name: 'daydetail',
+		component: DayDetail
 	},
 	{
 	    path: '*',

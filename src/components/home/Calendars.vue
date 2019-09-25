@@ -1,14 +1,14 @@
 <template>
   <div class="calendar">
-	<Swiper>
-		<div class="back">
+	<!-- <Swiper> -->
+		<!-- <div class="back">
 			<span class="iconfont icon-return" @click="goBack"></span>
 		</div>
 		<div class="add" @click="goNote">
 			<span>添加</span>
-		</div>
+		</div> -->
 		<Calendar @getData="getData"/>
-		<div class="sign">
+		<!-- <div class="sign">
 			<ul>
 				<li>
 					<span class="blue"></span>收入大于支出
@@ -41,8 +41,8 @@
 					</div>
 				</li>
 			</ul>
-		</div>
-	</Swiper>
+		</div> -->
+	<!-- </Swiper> -->
   </div>
 </template>
 

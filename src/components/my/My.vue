@@ -30,7 +30,6 @@
 				 </ul>
 			 </div>
 			 <div class="bill">
-				 <div class="line"></div>
 				 <router-link to="/bill" class="title">
 					 <div class="left">
 						 <div>

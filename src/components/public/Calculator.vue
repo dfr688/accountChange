@@ -218,7 +218,7 @@ export default {
 	.calculator .wrap li:nth-child(4){
 		border-right: none;
 		font-size: .24rem;
-		color: #20a3e0;
+		color: #fdcd13;
 		height: .52rem;
     line-height: .52rem;
 	}
@@ -252,8 +252,7 @@ export default {
 	}
 	.calculator .wrap li:nth-child(16){
 		font-size: .3rem;
-		color: #fff;
-		background: #20a3e0;
+		background: #fdcd13;
 		height: .52rem;
 		line-height: .52rem;
 	}
@@ -262,7 +261,7 @@ export default {
 		width: .44rem;
 		height: .4rem;
 		background: url(../../assets/images/home/calendar.png) no-repeat left top;
-		background-size: 100%;
+		background-size: 100% 100%;
 		position: absolute;
 		top: 1.25rem;
 		right: 1rem;

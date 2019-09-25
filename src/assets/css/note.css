@@ -5,11 +5,10 @@
 	width: 100%;
 	height: 1.28rem;
 	background: url(../images/public/set.png) no-repeat left top;
-	background-size: 100%;
+	background-size: 100% 99%;
 	display: flex;
 	padding: 0 .2rem;
 	box-sizing: border-box;
-	color: #fff;
 }
 .note .top .back{
 	flex: 1;
@@ -27,7 +26,7 @@
 	position: relative;
 }
 .note .top .income_expend a{
-	color: #fff; 
+	color: #333; 
 }
 .note .top .income_expend a:first-child{
 	margin-right: .6rem;
@@ -36,7 +35,7 @@
 	display: inline-block;
 	width: 1.13rem;
 	height: .05rem;
-	background: #f2f2f5;
+	background: #666;
 	border-radius: .01rem;
 	position: absolute;
 	left: .6rem;

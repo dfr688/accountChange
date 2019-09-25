@@ -8,11 +8,14 @@
 }
 .wh_top_changge{
 	width: 100%;
-	height: 1.28rem;
-	line-height: 1.28rem;
-	background: url(../images/public/set.png) no-repeat left top;
-	background-size: 100%;
+	/* height: 1.28rem; */
+	/* line-height: 1.28rem; */
+	/* background: url(../images/public/set.png) no-repeat left top; */
+	/* background-size: 100%; */
 	text-align: center;
+	position: absolute;
+	top: -1.8rem;
+	left: 0;
 }
 .wh_top_changge li{
 	height: 1.28rem!important;
@@ -37,7 +40,7 @@
 .wh_content_item .wh_isToday{
 	width: 1.02rem;
 	height: 1rem;
-	background: #20a3e0!important;
+	background: #fdcd13!important;
 	border-radius: .06rem!important;
 	color: #fff;
 }

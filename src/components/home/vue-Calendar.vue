@@ -25,7 +25,6 @@ li {
 .wh_top_changge li {
   cursor: pointer;
   display: flex;
-  color: #fff;
   font-size: 18px;
   flex: 1;
   justify-content: center;
@@ -177,12 +176,12 @@ wh_content_item_tag {
 	width: 100%;
 	text-align: center;
 }
-.height_20{
+/* .height_20{
 	width: 100%;
 	height: 12px;
 	margin-bottom: -1px;
 	background: #20a3e0;
-}
+} */
 /* 日历选择弹框 */
 .mint-popup-bottom{
 	width: 100%;
@@ -206,7 +205,7 @@ wh_content_item_tag {
 <template>
   <section class="wh_container">
     <div class="wh_content_all">
-			<div class="height_20"></div>
+			<!-- <div class="height_20"></div> -->
       <div class="wh_top_changge">
         <li @click="PreMonth(myDate,false)">
           <div class="wh_jiantou1"></div>
@@ -283,7 +282,7 @@ export default {
 			    values: months,
 			    className: 'slot2',
 			    textAlign: 'center',
-					defaultIndex: 6
+					defaultIndex: 8
 			  }
 			],
 			
@@ -446,8 +445,9 @@ export default {
           : this.NextMonth(item.date);
       }
 			this.getDayDetail(item.date,2,()=>{
-				this.$emit("getData",this.dayPriceList);
-			});
+        this.$emit("getData",this.dayPriceList);
+         this.$router.push({name:"daydetail",query:{dayPrice:this.dayPriceList}});
+      });
     },
     ChoseMonth: function(date, isChosedDay = true) {
 			const initDate = date;

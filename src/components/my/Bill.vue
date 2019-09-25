@@ -15,7 +15,6 @@
 				 </li>
 			 </ul>
 		</div>
-		 <div class="line"></div>
 		 <div class="detail">
 			 <ul class="type">
 				 <li>

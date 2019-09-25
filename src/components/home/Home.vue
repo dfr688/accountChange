@@ -1,11 +1,10 @@
 <template>
 	<div class="home">
-	  <Swiper>
 		<div class="top">
 			<div class="time">
-				<p @click="openPicker">{{ date }}<i :class="{active:isSee}"></i></p>
+				<!-- <i @click="openPicker">{{ date }}<i :class="{active:isSee}"></i></p> -->
 			</div>
-			<span class="calendar" @click="goCalendar"></span>
+			<!-- <span class="calendar" @click="goCalendar"></span> -->
 			<div class="logo"></div>
 			<ul>
 				<li>
@@ -18,9 +17,8 @@
 				</li>
 			</ul>
 		</div>
-		<Main :lists="lists" @refreshHome="refreshHome" @appear="appear" @getId="getId"/>
-		
-	  </Swiper>
+		<!-- <Main :lists="lists" @refreshHome="refreshHome" @appear="appear" @getId="getId"/> -->
+		<Calendars/>
 	  	<!-- 日历选择弹框 -->
 	  <mt-datetime-picker v-model="pickerVisible" ref="picker" type="date" year-format="{value} " month-format="{value} "
 	   date-format="{value} " @confirm="handleConfirm">
@@ -64,8 +62,8 @@
 </template>
 
 <script>
-	import Swiper from '../public/Swiper';
 	import Main from './Main'
+	import Calendars from './Calendars'
 	const types = [
 		{
 			img: require("../../assets/images/home/sign_01.png"),
@@ -142,7 +140,7 @@
 		},
 		components: {
 			Main,
-			Swiper
+			Calendars
 		},
 		methods: {
 			// 进入日历页面

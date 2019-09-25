@@ -18,7 +18,6 @@
 	margin-bottom: .2rem;
 }
 .my .top .out i{
-	color: #fff;
 	font-size: .46rem;
 	flex: 1;
 }
@@ -26,20 +25,20 @@
 	font-size: .3rem;
 	flex: 1;
 	text-align: right;
-	color: #fff;
 }
 .my .top .head_img{
 	width: 1.14rem;
 	height: 1.14rem;
 	background: #fdebed;
-	border-radius: .6rem;
+	border-radius: 100%;
 	text-align: center;
 	margin: 0 auto;
 	line-height: 1.14rem;
 }
 .my .top .head_img img{
-	width: .75rem;
-	height: .77rem;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
 }
 .my .top ul{
 	display: flex;
@@ -65,7 +64,6 @@
 }
 .my .top p{
 	font-size: .36rem;
-	color: #fff;
 	text-align: center;
 	margin-top: .4rem;
 }
@@ -76,18 +74,11 @@
 }
 .my .all ul li{
 	flex: 1;
-	font-size: .2rem;
+	font-size: .26rem;
 	text-align: center;
 }
 .my .all ul li span{
 	margin-left: .4rem;
-}
-.my .bill .line{
-	width: 100%;
-	height: .26rem;
-	background: url(../images/public/line.png) no-repeat left top;
-	background-size: 100%;
-	margin-top: .2rem;
 }
 .my .bill .title{
 	display: flex;
@@ -96,7 +87,7 @@
 }
 .my .bill .title .left{
 	flex: 2;
-	font-size: .28rem;
+	font-size: .3rem;
 	height: .7rem;
 	line-height: .7rem;
 }
@@ -133,23 +124,24 @@
 }
 .my .bill .bill_detail .type ul{
 	display: flex;
-	padding-left: .2rem;
-	padding-bottom: .1rem;
+	padding-bottom: .2rem;
 	border-bottom: 1px solid #f1f1f1;
 }
 .my .bill .bill_detail .type ul li{
 	flex: 1;
 	color: #999;
-	font-size: .2rem;
+	font-size: .24rem;
+	text-align: center;
 }
 .my .bill .bill_detail .cost li{
 	display: flex;
-	padding: .4rem 0 .4rem .2rem;
+	padding: .4rem 0;
 	border-bottom: 1px solid #f1f1f1;
+	text-align: center;
 }
 .my .bill .bill_detail .cost li p{
 	flex: 1;
-	font-size: .24rem;
+	font-size: .26rem;
 }
 /* 底部导航盖住页面内容 */
 /* .my:after {

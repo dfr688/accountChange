@@ -90,8 +90,7 @@ export default {
 	.expend ul li div{
 		width: 1.2rem;
 		height: 1.2rem;
-		background: #f2f2f5;
-		border-radius: .6rem;
+		border-radius: 100%;
 		margin: 0 auto;
 		margin-bottom: .2rem;
 		line-height: 1.7rem;
@@ -100,7 +99,7 @@ export default {
 		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 	}
 	.expend ul li div img{
-		width: .7rem;
-		height: .66rem;
+		width: 100%;
+		height: 100%;
 	}
 </style>
